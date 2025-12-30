@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <title>task</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family: poppins;
+            font-weight: 200;
+        }
+        .imgbg {
+            /* height: 300px; */
+            display: block;
+            margin: auto;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            /* padding: 10px; */
+            margin-top: 20px;
+        }
+
+        tr,
+        td {
+            height: 130px;
+            width: 100px;
+            border-bottom: 1px solid rgb(224, 219, 219);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        tr:hover {
+            background-color: #fff6f1;
+        }
+
+        .img {
+            height: 100px;
+            width: 100px;
+            border-radius: 10%;
+        }
+
+        .theadcolor {
+            height: 50px;
+            background-color: #ffd8b5;
+        }
+
+        li {
+            text-decoration: none;
+            list-style-type: none;
+            margin-right:10%;
+        }
+
+        ul {
+            display: flex;
+            background: #fffafa;
+            margin: 55px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(249, 36, 100);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(249, 36, 100);
+        }
+        .aboutbox{
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            background-color: #ffffff; /* Color for the box background */
+            border: 1px solid #c7c7c7;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Inner shadow effect */
+            text-align: center;
+            font-size: 16px;
+            margin-left: 30px;
+            margin-right: 30px;
+            line-height: 30px;
+            font-family: "Gabriela", serif;
+        }
+        .about{
+            display: flex;
+            margin: 20px;
+            margin-left: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- menu -->
+    <nav>
+        <ul>
+            <li style="margin-right:0;margin-left: 0;"><img src="bouquet.png" alt="" width="40"></li>
+            <li>MHBouquet</li>
+            <li><a href="#home">Home</a></li>
+            <li>About</li>
+            <li><a href="#product">Product</a></li>
+            <li>Order</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- home -->
+     <section id="home">
+        <img src="bg.png" class=imgbg>
+     </section>
+
+
+     <!-- about -->
+
+     <section id="about">
+        <div class="about">
+            <div class="aboutbox">
+                Welcome to MHBouquete, your one-stop destination for fresh, <br>
+                beautiful, and hand-picked roses.We specialize in elegant <br>
+                floral arrangements that express love, care, and emotions <br>
+                for every occasion.From romantic surprises to special <br>
+                celebrations, our bouquets are designed to make every moment <br> 
+                memorable.MHBouquete is a flower boutique dedicated to <br>
+                delivering freshness, quality, and happiness through flowers. <br>
+                We carefully select each rose to ensure long-lasting beauty <br>
+                and vibrant colors.Our mission is to provide affordable floral <br>
+                products with excellent customer service and timely delivery.
+                
+            </div>
+            <div>
+
+                <img src="aboutbg.jpg" alt="Image" width="500" height="340" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);padding: 1px;">
+            </div>
+        </div>
+     </section>
+
+     <!-- product -->
+
+    <section id="product">
+        <table>
+            <tr class=theadcolor>
+                <td class=theadcolor>S.NO</td>
+                <td class=theadcolor>Description</td>
+                <td class=theadcolor>Sample</td>
+                <td class=theadcolor>Amount</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Red Rose</td>
+                <td><img src="rose1.jpg" class=img></td>
+                <td>Rs.120</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pink Rose</td>
+                <td><img src="rose2.jpg" class=img></td>
+                <td>Rs.130</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Yellow Rose</td>
+                <td><img src="rose3.jpg" class=img></td>
+                <td>Rs.180</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Voilet Rose</td>
+                <td><img src="rose4.jpg" class=img></td>
+                <td>Rs.150</td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+
+</html>
